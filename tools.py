@@ -1,7 +1,7 @@
 import json
 from logging_config import log
 
-with open("product.json") as file:
+with open("products.json") as file:
     products = json.load(file)
 
 def search_product(query):
